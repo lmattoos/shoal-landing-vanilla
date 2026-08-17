@@ -1,5 +1,5 @@
-import { cardPeix } from "../components/cardPeix";
+import { cardPeixaria } from "../components/cardPeixaria";
 
-export function fetchPeixaria(listaPeix) {
-  return listaPeix.reverse().map((peixaria) => cardPeix(peixaria));
+export function fetchPeixarias(listaPeix) {
+  return listaPeix.reverse().map((peixaria) => cardPeixaria(peixaria));
 }
