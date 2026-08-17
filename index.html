@@ -2,12 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shoal-landing-vanilla</title>
+    <title>SHOAL</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="header">
+      <a class="img-header" href="principal.php">
+        <img src="public/img/Shoal(Logo) pequena.png" alt="Shoal" />
+      </a>
+      <nav>
+        <a href="">Minha Peixaria</a>
+        <a href="perfil.php">Perfil</a>
+        <a href="carrinho.php"><i class="fa-solid fa-cart-shopping"></i> 0</a>
+      </nav>
+    </div>
+    <div class="index-container">
+      <img src="public/img/salmao.jpg" />
+      <div class="container-titulo">
+        <p class="titulo">Produtos</p>
+        <form
+          class="form-pesquisa"
+          action="../CONTROLLER/controlador.php"
+          method="post"
+        >
+          <input
+            type="text"
+            class="barra-pesquisa"
+            name="pesquisa-nome-prod"
+            id="pesquisa-nome-prod"
+            placeholder="Procurar"
+          />
+          <button
+            type="submit"
+            name="buscar-prod"
+            value="buscar"
+            class="botao-azul"
+          >
+            Buscar
+          </button>
+        </form>
+      </div>
+      <div class="container-produtos">
+        <div class="retorno-produtos"></div>
+      </div>
+      <div class="container-titulo">
+        <p class="titulo">Peixarias</p>
+        <form
+          class="form-pesquisa"
+          action="../CONTROLLER/controlador.php"
+          method="post"
+        >
+          <input
+            type="text"
+            class="barra-pesquisa"
+            name="pesquisa-nome-peix"
+            id="pesquisa-nome-peix"
+            placeholder="Procurar"
+          />
+          <button
+            type="submit"
+            name="buscar-peixaria"
+            value="buscar"
+            class="botao-azul"
+          >
+            Buscar
+          </button>
+        </form>
+      </div>
+      <div class="container-peixarias">
+        <div class="retorno-peixarias"></div>
+      </div>
+    </div>
+    <footer>
+      <p>Contato:</p>
+      <p>E-mail: shoal@gmail.com</p>
+      <p>Telefone: (00) 00000-0000</p>
+    </footer>
+    <script type="module" src="src/main.js"></script>
   </body>
 </html>
