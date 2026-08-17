@@ -2,7 +2,7 @@ export const mockedProdutos = [
   {
     id: 1,
     nome: "Bolinho de Peixe",
-    foto: "./public/img/bolodepeixe.jpg",
+    foto: "./public/shoal/bolodepeixe.jpg",
     categoria: "Congelados",
     valor_unidade: 10.0,
     peso_unidade: "500 g",
@@ -12,7 +12,7 @@ export const mockedProdutos = [
   {
     id: 2,
     nome: "Salmão",
-    foto: "./public/img/salmao.jpg",
+    foto: "./public/shoal/salmao.jpg",
     categoria: "Filé",
     valor_unidade: 25.5,
     peso_unidade: "1 KG",
@@ -22,7 +22,7 @@ export const mockedProdutos = [
   {
     id: 3,
     nome: "Linguado",
-    foto: "./public/img/linguado.jpg",
+    foto: "./public/shoal/linguado.jpg",
     categoria: "Peixe Inteiro",
     valor_unidade: 30.0,
     peso_unidade: "1 KG",
@@ -32,7 +32,7 @@ export const mockedProdutos = [
   {
     id: 4,
     nome: "Camarão",
-    foto: "./public/img/camarao1.jpg",
+    foto: "./public/shoal/camarao1.jpg",
     categoria: "Porções",
     valor_unidade: 20.0,
     peso_unidade: "450 g",
@@ -42,7 +42,7 @@ export const mockedProdutos = [
   {
     id: 5,
     nome: "Lula",
-    foto: "./public/img/lula.png",
+    foto: "./public/shoal/lula.png",
     categoria: "Frutos do Mar",
     valor_unidade: 40.0,
     peso_unidade: "2 KG",
@@ -52,7 +52,7 @@ export const mockedProdutos = [
   {
     id: 6,
     nome: "Lula",
-    foto: "./public/img/lula.png",
+    foto: "./public/shoal/lula.png",
     categoria: "Frutos do Mar",
     valor_unidade: 40.0,
     peso_unidade: "2 KG",
